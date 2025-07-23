@@ -25,13 +25,13 @@
             </div>
             <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <h1><strong>VNEXPRESS FAKE</strong></h1>
+                    <h1 class="slide-in"><strong>VNEXPRESS FAKE</strong></h1>
                 </div>
             </div>
         </div>
         <nav class="navbar navbar-expand-md sticky-top bg-body shadow-sm py-md-3">
             <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
+                <div class="collapse navbar-collapse slide-in" id="navcol-1">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item"><a class="nav-link" href="/Thoisu.html" style="color: var(--bs-primary);">Thời sự</a></li>
                         <li class="nav-item"><a class="nav-link active" href="/Thegioi.html" style="color: var(--bs-primary);">Thế giới</a></li>
@@ -49,11 +49,11 @@
     <section class="text-center py-5">
         <div class="container">
             <div class="mb-5">
-                <h2>Thế giới</h2>
+                <h2 style="color: var(--bs-info);">Thế giới</h2>
                 <hr>
             </div>
             <div class="text-start" data-bss-type="blog-loop">
-                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3" data-bss-type="blog-loop-base">
+                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3 slide-up" data-bss-type="blog-loop-base">
                     <div class="col" data-bss-type="blog-loop-item">
                         <div class="card border-0"><a href="articles/article-5.html"><img class="card-img-top" src="assets/img/thi.png" width="356" height="237"></a>
                             <div class="card-body px-0"><a class="text-decoration-none" href="articles/article-5.html">
@@ -71,6 +71,15 @@
                                     <h4 class="fs-5 fw-bold text-body">Đổi mới tư duy và cách tiếp cận về khởi nghiệp - sở hữu trí tuệ</h4>
                                 </a>
                                 <p class="card-text">Sáng 17-6, Sở Khoa học và Công nghệ tỉnh Tiền Giang tổ chức Hội nghị tổng kết kết quả thực hiện Quyết định 2952 và sơ kết Kế hoạch số 07 ngày 11-1-2022 của UBND tỉnh.</p><small><time class="fw-bold" datetime="2024-10-02">Oct 2, 2024</time></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" data-bss-type="blog-loop-item">
+                        <div class="card border-0"><a href="articles/article-6.html"><img class="card-img-top" src="assets/img/caicach.png" width="356" height="237"></a>
+                            <div class="card-body px-0"><a class="text-decoration-none" href="articles/article-6.html">
+                                    <h4 class="fs-5 fw-bold text-body">Một dấu mốc lập hiến – một bước tiến cải cách</h4>
+                                </a>
+                                <p class="card-text">Dưới lá cờ đỏ sao vàng và trong niềm tin tưởng sâu sắc vào tương lai đất nước, một quyết định có ý nghĩa lịch sử đã được xác lập: Hiến pháp được điều chỉnh để mở đường cho một cuộc cải cách hành chính sâu rộng, nhằm kiến tạo một bộ máy chính quyền tinh gọn, hiệu quả và gần dân hơn.</p><small><time class="fw-bold" datetime="2024-10-02">Oct 2, 2024</time></small>
                             </div>
                         </div>
                     </div>
@@ -124,7 +133,7 @@
         </div>
     </section>
     <footer class="text-center bg-body-tertiary" style="background: var(--bs-dark-bg-subtle);">
-        <div class="container py-4 py-lg-5" style="background: var(--bs-dark-bg-subtle);">
+        <div class="container py-4 py-lg-5 my-box" style="background: var(--bs-dark-bg-subtle);">
             <h1 class="fs-4 text-body mb-4"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-components fs-4 text-body me-2">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M3 12l3 3l3 -3l-3 -3z"></path>
@@ -543,7 +552,6 @@
         })();
     </script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/baguetteBox.min.js"></script>
     <script src="assets/js/template.js"></script>
 </body>

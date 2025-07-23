@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-md sticky-top bg-body shadow-sm py-md-3">
         <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
+            <div class="collapse navbar-collapse slide-in" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="/Thoisu.html" style="color: var(--bs-primary);">Thời sự</a></li>
                     <li class="nav-item"><a class="nav-link" href="/Thegioi.html" style="color: var(--bs-primary);">Thế giới</a></li>
@@ -50,8 +50,7 @@
                                     <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                                     <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Mật khẩu"></div>
                                     <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Nhập lại mật khẩu"></div>
-                                    <div class="mb-3"><button class="btn btn-primary w-100 d-block" type="submit">Login</button></div>
-                                    <p class="text-muted">Quên mật khẩu?</p><a href="/register.html" style="color: var(--bs-primary);">Đăng kí</a>
+                                    <div class="mb-3"><button class="btn btn-primary w-100 d-block" type="submit">Login</button></div><a href="/contacts.html" style="color: var(--bs-primary);"><br><span style="color: rgba(33, 37, 41, 0.75);">Quên mật khẩu?</span><br><br></a><a href="/register.html" style="color: var(--bs-primary);">Đăng kí</a>
                                 </form>
                             </div>
                         </div>
@@ -61,7 +60,7 @@
         </section>
     </section>
     <footer class="text-center bg-body-tertiary" style="background: var(--bs-dark-bg-subtle);">
-        <div class="container py-4 py-lg-5" style="background: var(--bs-dark-bg-subtle);">
+        <div class="container py-4 py-lg-5 my-box" style="background: var(--bs-dark-bg-subtle);">
             <h1 class="fs-4 text-body mb-4"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-components fs-4 text-body me-2">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M3 12l3 3l3 -3l-3 -3z"></path>
@@ -80,7 +79,6 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/baguetteBox.min.js"></script>
     <script src="assets/js/template.js"></script>
 </body>

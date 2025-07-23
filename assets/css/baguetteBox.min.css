@@ -223,3 +223,60 @@
   --bs-btn-disabled-border-color: #fff;
 }
 
+@keyframes slide-in {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slide-up 1s ease forwards;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slide-up 1s ease forwards;
+}
+
+.my-box {
+  border-radius: 25px;
+  background: #f8f9fa;
+  padding: 30px;
+}
+
+.my-box {
+  border-radius: 25px;
+  background: #f8f9fa;
+  padding: 30px;
+}
+

@@ -32,6 +32,62 @@
   padding-bottom: 3rem !important;
 }
 
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pt-4 {
+  padding-top: 1.5rem !important;
+}
+
+.pe-0 {
+  padding-right: 0 !important;
+}
+
+.pe-4 {
+  padding-right: 1.5rem !important;
+}
+
+.pe-5 {
+  padding-right: 3rem !important;
+}
+
+.pe-6 {
+  padding-right: 4.5rem !important;
+}
+
+.pe-8 {
+  padding-right: 7.5rem !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pb-3 {
+  padding-bottom: 1rem !important;
+}
+
+.ps-0 {
+  padding-left: 0 !important;
+}
+
+.ps-1 {
+  padding-left: .25rem !important;
+}
+
+.ps-6 {
+  padding-left: 4.5rem !important;
+}
+
+.ps-7 {
+  padding-left: 6rem !important;
+}
+
+.ps-8 {
+  padding-left: 7.5rem !important;
+}
+
 @media (min-width: 768px) {
   .p-md-5 {
     padding: 3rem !important;
